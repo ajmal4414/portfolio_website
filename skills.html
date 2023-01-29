@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <style>
+
+    .backg{
+width:100%
+height:100vh;
+background: Url(https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg);
+background-size:cover;
+}
+
+
+
+
+*{
+font-family:poppins, sans-serif;
+list-style:none;
+padding:0;
+margin:0;
+}
+body{
+background:#FFFFFF ;
+text-transform: uppercase;
+}
+h1{
+text-align:center;
+}
+h3{
+margin:5px;
+}
+.skill{
+width:500px;
+margin:60px auto;
+color:#008cba;
+padding:20px;
+box-shadow:0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+margin:20px 0;
+padding:10px;
+}
+.bar{
+background:#008cba;
+display:block;
+height:20px;
+border:1px solid rgba(0, 0, 0, 0.3);
+border-radius:10px;
+over-flow:hidden;
+box-shadow:0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 150, 255);
+}
+.bar span{
+height:20px;
+float:left;
+background:linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+.PYTHON{
+width:70%;
+animation: PYTHON 3s;
+}
+.SQL{
+width:80%;
+animation: SQL 3s;
+}
+.HTML{
+width:80%;
+animation: HTML 3s;
+}
+.CSS{
+width:80%;
+animation: CSS 3s;
+}
+.JAVASCRIPT{
+width:70%;
+animation: JAVASCRIPT 3s;
+}
+
+
+@keyframes PYTHON{
+0%{
+width:0%;
+}
+100%{
+width:78%;
+}
+}
+@keyframes SQL{
+0%{
+width:0%;
+}
+100%{
+width:80%;
+}
+}
+
+@keyframes HTML{
+0%{
+width:0%;
+}
+100%{
+width:85%;
+}
+}
+
+@keyframes CSS{
+0%{
+width:0%;
+}
+100%{
+width:80%;
+}
+}
+
+@keyframes JAVASCRIPT{
+0%{
+width:0%;
+}
+100%{
+width:80%;
+}
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<div class="backg">
+<div class="skill">
+<h1>My Skills</h1>
+    <div/>
+    <div>
+    <li><h3>PYTHON</h3>
+        <span class="bar"><span class="PYTHON"></span></span>
+    </li>
+
+     <li><h3>SQL</h3>
+        <span class="bar"><span class="SQL"></span></span>
+    </li>
+
+
+     <li><h3>HTML</h3>
+        <span class="bar"><span class="HTML"></span></span>
+    </li>
+
+     <li><h3>CSS</h3>
+        <span class="bar"><span class="CSS"></span></span>
+    </li>
+
+     <li><h3>JAVASCRIPT</h3>
+        <span class="bar"><span class="JAVASCRIPT"></span></span>
+    </li>
+
+
+
+
+
+
+</div>
+</div>
+
+</body>
+</html>
